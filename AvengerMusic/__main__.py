@@ -102,8 +102,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:  
-            await ASS_CLI_1.join_chat("BotsClubOfficial")
-            await ASS_CLI_1.join_chat("BotsClubDiscussion")
+            await ASS_CLI_1.join_chat("sl_new_bots_tm")
+            await ASS_CLI_1.join_chat("sl_new_bots_tm")
         except:
             pass
         console.print(f"├[red] Assistant 1 Started as {ASSNAME1}!")
@@ -121,8 +121,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_2.join_chat("BotsClubOfficial")
-            await ASS_CLI_2.join_chat("BotsClubDiscussion")
+            await ASS_CLI_2.join_chat("sl_new_bots_tm")
+            await ASS_CLI_2.join_chat("sl_new_bots_tm")
         except:
             pass
         console.print(f"├[red] Assistant 2 Started as {ASSNAME2}!")
@@ -140,8 +140,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_3.join_chat("BotsClubOfficial")
-            await ASS_CLI_3.join_chat("BotsClubDiscussion")
+            await ASS_CLI_3.join_chat("sl_new_bots_tm")
+            await ASS_CLI_3.join_chat("sl_new_bots_tm")
         except:
             pass
         console.print(f"├[red] Assistant 3 Started as {ASSNAME3}!")
@@ -159,8 +159,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_4.join_chat("BotsClubOfficial")
-            await ASS_CLI_4.join_chat("BotsClubDiscussion")
+            await ASS_CLI_4.join_chat("sl_new_bots_tm")
+            await ASS_CLI_4.join_chat("aboutchathura")
         except:
             pass
         console.print(f"├[red] Assistant 4 Started as {ASSNAME4}!")
@@ -178,8 +178,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_5.join_chat("BotsClubOfficial")
-            await ASS_CLI_5.join_chat("BotsClubDiscussion")
+            await ASS_CLI_5.join_chat("sl_new_bots_tm")
+            await ASS_CLI_5.join_chat("aboutchathura")
         except:
             pass
         console.print(f"├[red] Assistant 5 Started as {ASSNAME5}!")
@@ -197,11 +197,11 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await LOG_CLIENT.join_chat("BotsClubOfficial")
-            await LOG_CLIENT.join_chat("BotsClubDiscussion")
+            await LOG_CLIENT.join_chat("sl_new_bots_tm")
+            await LOG_CLIENT.join_chat("aboutchathura")
         except:
             pass
-    console.print(f"└[red] Avenger Music Bot Boot Completed.")
+    console.print(f"└[red] Mayawee Music Bot Boot Completed.")
     if STRING1 != "None":
         await pytgcalls1.start()
     if STRING2 != "None":
